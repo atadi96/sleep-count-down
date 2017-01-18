@@ -8,3 +8,6 @@ When you click the button, the countdown will start, and all the controls except
 become disabled. When it reaches zero, your PC will enter the selected suspend mode.
 You can stop the countdown and enable the controls by pushing the button one more time.
 
+## Download
+You can download the whole project, or grab the exe [from this link](https://github.com/atadi96/sleep-count-down/blob/master/SleepCountDown/SleepCountDown/bin/Release/SleepCountDown.exe)
+
