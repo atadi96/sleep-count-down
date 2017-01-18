@@ -1,0 +1,9 @@
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\SleepCountDown\SleepCountDown\bin\Debug\SleepCountDown.exe.config
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\SleepCountDown\SleepCountDown\bin\Debug\SleepCountDown.exe
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\SleepCountDown\SleepCountDown\bin\Debug\SleepCountDown.pdb
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\SleepCountDown\SleepCountDown\obj\Debug\SleepCountDown.csprojResolveAssemblyReference.cache
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\SleepCountDown\SleepCountDown\obj\Debug\SleepCountDown.Form1.resources
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\SleepCountDown\SleepCountDown\obj\Debug\SleepCountDown.Properties.Resources.resources
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\SleepCountDown\SleepCountDown\obj\Debug\SleepCountDown.csproj.GenerateResource.Cache
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\SleepCountDown\SleepCountDown\obj\Debug\SleepCountDown.exe
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\SleepCountDown\SleepCountDown\obj\Debug\SleepCountDown.pdb
