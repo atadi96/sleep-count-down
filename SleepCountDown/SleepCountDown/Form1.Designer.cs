@@ -61,7 +61,7 @@
             // 
             // startStopButton
             // 
-            this.startStopButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("startStopButton.BackgroundImage")));
+            this.startStopButton.BackgroundImage = global::SleepCountDown.Properties.Resources.Haruna;
             this.startStopButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.startStopButton.Font = new System.Drawing.Font("Impact", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.startStopButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -88,7 +88,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::SleepCountDown.Properties.Resources.FormBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(265, 163);
             this.Controls.Add(this.dateTimePicker);

@@ -17,13 +17,20 @@ namespace SleepCountDown
         public Form1()
         {
             InitializeComponent();
+            //setup drag and drop
+            AllowDrop = true;
+            DragEnter += new DragEventHandler(Form1_DragEnter);
+            DragDrop += new DragEventHandler(Form1_DragDrop);
+            //setup the model layer
             model = new SleepCountDownModel();
             model.Enabled = false;
             model.NotifyChange += Model_NotifyChange;
-
+            //make sure all of our controls have the same state at the start of the app
             dateTimePicker.Enabled = true;
             sleepRadioButton.Enabled = true;
             hibernateRadioButton.Enabled = true;
+            //load the custom start/stop button image
+            LoadStartStopButtonImage();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -78,6 +85,35 @@ namespace SleepCountDown
                 hibernateRadioButton.Enabled = enabled;
                 sleepRadioButton.Enabled = enabled;
             }
+        }
+
+        private void LoadStartStopButtonImage()
+        {
+            Image image = SleepCountDownPersistence.getStartStopButtonImage();
+            if (image != null) //there was an image to load
+            {
+                startStopButton.BackgroundImage = image;
+            }
+            else //there was no image or there was an error
+            {
+                //so we now load the default Haruna back
+                startStopButton.BackgroundImage = Properties.Resources.Haruna;
+            }
+        }
+
+        void Form1_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop)) e.Effect = DragDropEffects.Copy;
+        }
+
+        void Form1_DragDrop(object sender, DragEventArgs e)
+        {
+            string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
+            if(files.Length > 0)
+            {
+                SleepCountDownPersistence.setStartStopButtonImagePath(files[0]);
+            }
+            LoadStartStopButtonImage();
         }
     }
 }

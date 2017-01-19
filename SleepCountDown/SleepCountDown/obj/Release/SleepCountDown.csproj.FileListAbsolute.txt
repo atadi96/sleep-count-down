@@ -6,3 +6,11 @@ C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\SleepCountDown\SleepCoun
 C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\SleepCountDown\SleepCountDown\obj\Release\SleepCountDown.csproj.GenerateResource.Cache
 C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\SleepCountDown\SleepCountDown\obj\Release\SleepCountDown.exe
 C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\SleepCountDown\SleepCountDown\obj\Release\SleepCountDown.pdb
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\sleep-count-down-repo\sleep-count-down\SleepCountDown\SleepCountDown\bin\Release\SleepCountDown.exe.config
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\sleep-count-down-repo\sleep-count-down\SleepCountDown\SleepCountDown\obj\Release\SleepCountDown.exe
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\sleep-count-down-repo\sleep-count-down\SleepCountDown\SleepCountDown\obj\Release\SleepCountDown.pdb
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\sleep-count-down-repo\sleep-count-down\SleepCountDown\SleepCountDown\bin\Release\SleepCountDown.exe
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\sleep-count-down-repo\sleep-count-down\SleepCountDown\SleepCountDown\bin\Release\SleepCountDown.pdb
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\sleep-count-down-repo\sleep-count-down\SleepCountDown\SleepCountDown\obj\Release\SleepCountDown.Form1.resources
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\sleep-count-down-repo\sleep-count-down\SleepCountDown\SleepCountDown\obj\Release\SleepCountDown.Properties.Resources.resources
+C:\Users\RipSeiko\Documents\Visual Studio 2015\Projects\sleep-count-down-repo\sleep-count-down\SleepCountDown\SleepCountDown\obj\Release\SleepCountDown.csproj.GenerateResource.Cache
